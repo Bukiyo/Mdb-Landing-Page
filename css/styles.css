@@ -118,6 +118,9 @@ h1, h2 {
     .code-mrkt-sell {
         text-align: center;
     }
+    .btn-works {
+        padding: .375rem .9rem
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -129,6 +132,11 @@ h1, h2 {
     }
     .heading-box {
         text-align: center;
+    }
+    .btn-lg {
+        padding: .5rem .5rem;
+        font-size: 1rem;
+        border-radius: .2rem;
     }
     .intro h1, .intro p {
         text-align: center;
@@ -144,6 +152,9 @@ h1, h2 {
     }
     .companies .img-fluid {
         width: 9rem;
+    }
+    .btn-works {
+        padding: .375rem .9rem
     }
 }
 
@@ -176,5 +187,8 @@ h1, h2 {
     }
     .companies .img-fluid {
         width: 8rem;
+    }
+    .btn-works {
+        padding: .375rem .9rem
     }
 }
