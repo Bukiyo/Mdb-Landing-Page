@@ -119,7 +119,8 @@ h1, h2 {
         text-align: center;
     }
     .btn-works {
-        padding: .375rem 1.5rem
+        padding: .375rem 1.5rem;
+        width: 9rem;
     }
 }
 
