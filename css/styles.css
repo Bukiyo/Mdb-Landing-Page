@@ -119,8 +119,9 @@ h1, h2 {
         text-align: center;
     }
     .btn-works {
-        padding: .375rem 1.5rem;
-        width: 9rem;
+        /* padding: .375rem 1.5rem; */
+        /* width: 9rem; */
+        font-size: 0.85rem;
     }
 }
 
@@ -155,7 +156,9 @@ h1, h2 {
         width: 9rem;
     }
     .btn-works {
-        padding: .375rem .9rem
+        /* padding: .375rem 1.5rem; */
+        /* width: 9rem; */
+        font-size: 0.85rem;
     }
 }
 
@@ -190,6 +193,8 @@ h1, h2 {
         width: 8rem;
     }
     .btn-works {
-        padding: .375rem .9rem
+        /* padding: .375rem 1.5rem; */
+        /* width: 9rem; */
+        font-size: 0.85rem;
     }
 }
