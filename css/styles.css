@@ -12,6 +12,11 @@ html, body {
    rgba(105, 0, 199, 1) 100%);
 }
 
+.btn-outline-success {
+    color: #37d25a;
+    border-color: #37d25a;
+}
+
 .page-header {
     margin-top: 4rem;
     font-size: 1.25rem;
@@ -68,4 +73,108 @@ footer {
 a {
     color: #fff;
     text-decoration: none;
+}
+h1, h2 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+    p {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+    p {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1,h2 {
+        font-size: 1.7rem;
+    }
+    p {
+        font-size: 1.15rem;
+    }
+    .heading-box {
+        text-align: center;
+    }
+    .intro h1, .intro p {
+        text-align: center;
+    }
+    .works-header-box {
+        text-align: center;
+    }
+    .works-btn-box {
+        text-align: center;
+    }
+    .code-mrkt-sell {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h1,h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .heading-box {
+        text-align: center;
+    }
+    .intro h1, .intro p {
+        text-align: center;
+    }
+    .works-header-box {
+        text-align: center;
+    }
+    .works-btn-box {
+        text-align: center;
+    }
+    .code-mrkt-sell {
+        text-align: center;
+    }
+    .companies .img-fluid {
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1,h2 {
+        font-size: 1.35rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .heading-box {
+        text-align: center;
+    }
+    .btn-lg {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    }
+    .intro h1, .intro p {
+        text-align: center;
+    }
+    .works-header-box {
+        text-align: center;
+    }
+    .works-btn-box {
+        text-align: center;
+    }
+    .code-mrkt-sell {
+        text-align: center;
+    }
+    .companies .img-fluid {
+        width: 8rem;
+    }
 }
